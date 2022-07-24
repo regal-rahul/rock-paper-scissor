@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper Scissor</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Neucha|Inter"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./app.js" defer></script>
+  </head>
+  <body>
+    <div id="home-container">
+      <h1 class="title">Rock Paper Scissors</h1>
+      <h3 class="author">Created by Rahul Kumar</h3>
+      <button class="start-button">Start game</button>
+    </div>
+
+    <div id="game-container">
+      <div class="round-message">
+        <div class="main-text">Make a move!</div>
+        <div class="sub-text">The first to reach 5 points wins.</div>
+      </div>
+
+      <div class="round-results">
+        <div class="player">
+          <div class="player-name">Player</div>
+
+          <div class="player-move">
+            <div class="img-placeholder">Awaiting response...</div>
+          </div>
+        </div>
+
+        <div class="score">
+          <div class="win">0</div>
+          -
+          <div class="tie">0</div>
+          -
+          <div class="lose">0</div>
+        </div>
+
+        <div class="computer">
+          <div class="computer-name">Computer</div>
+
+          <div class="computer-move">
+            <div class="img-placeholder">Awaiting response...</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="move-icons">
+        <button class="rock">
+          <img src="./images/rock.jpeg" alt="A vector artwork of a rock" />
+        </button>
+
+        <button class="paper">
+          <img src="./images/paper.jpeg" alt="A vector artwork of paper" />
+        </button>
+
+        <button class="scissors">
+          <img
+            src="./images/scissors.jpeg"
+            alt="A vector artwork of scissors"
+          />
+        </button>
+      </div>
+
+      <div class="game-over-container">
+        <div class="game-over-sub-text">Final score:</div>
+        <button class="play-again">Play again</button>
+      </div>
+    </div>
+
+    <div id="footer">
+      <a href="https://github.com/regal-rahul"
+        ><i class="fa fa-github"></i> Regal Rahul</a
+      >
+    </div>
+  </body>
+</html>
