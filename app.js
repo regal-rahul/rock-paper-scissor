@@ -48,7 +48,6 @@ function playRound(playerSelection, computerSelection) {
     }
 }
 
-
 let userScore = parseInt(0);
 let computerScore = parseInt(0);
 let win = "You win"
