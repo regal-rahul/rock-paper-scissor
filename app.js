@@ -61,7 +61,7 @@ const play = () => {
     const computerSelection = computerPlay()
     console.log(playRound(playerSelection, computerSelection));
     i++;
-    if (i !== 5) {
+    if (i !== 100) {
         play();
     } else {
         declareWinner();
@@ -69,11 +69,11 @@ const play = () => {
     }
 }
 const declareWinner = () => {
-    if (i === 5 && userScore === computerScore) {
+    if (i === 100 && userScore === computerScore) {
         console.log("Your score = " + userScore);
         console.log("Computer's score = " + computerScore);
         console.log("It was a Draw, Try Again!");
-    } else if (i === 5 && userScore > computerScore) {
+    } else if (i === 100 && userScore > computerScore) {
         console.log("Your score = " + userScore);
         console.log("Computer's score = " + computerScore);
         console.log("You won!");
